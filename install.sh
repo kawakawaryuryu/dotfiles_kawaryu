@@ -2,7 +2,8 @@
 
 for file in .??*
 do
-	["$file" == ".git"] && continue
+	[ $file = ".git" ] && continue
 
-	ln -snfv "$file" "$HOME"/"$file"
+	ln -sf "$HOME/dotfiles/$file" "$HOME/$file"
+	#echo $file
 done
