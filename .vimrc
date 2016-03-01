@@ -17,6 +17,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 "molokai
 NeoBundle 'tomasr/molokai'
 
+"molokai dark
+"NeoBundle 'tomasr/molokai_dark'
+
 " jellybeans
 NeoBundle 'nanotech/jellybeans.vim'
 
@@ -25,6 +28,15 @@ NeoBundle 'altercation/vim-colors-solarized'
 
 " mrkn256
 NeoBundle 'mrkn/mrkn256.vim'
+
+" vim-monokai
+NeoBundle "sickill/vim-monokai"
+
+" molokai_dark
+NeoBundle "fcevado/molokai_dark"
+
+" tomorrow-theme
+NeoBundle "chriskempson/vim-tomorrow-theme"
 
 " html
 NeoBundle 'mattn/emmet-vim'
@@ -67,7 +79,11 @@ set number
 
 " 色分け
 set t_Co=256 
-"colorscheme molokai
+set background=dark
+"colorscheme Tomorrow-Night-Bright
+"colorscheme molokai_dark
+"colorscheme monokai
+colorscheme molokai
 "colorscheme jellybeans
 "colorscheme mrkn256
 
@@ -83,3 +99,7 @@ set statusline=%F
 
 " backsapceキーを有効
 set backspace=indent,eol,start
+
+" タブのやインデントの空白数
+set tabstop=4
+set shiftwidth=4
