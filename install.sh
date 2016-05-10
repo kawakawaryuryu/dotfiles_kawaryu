@@ -2,7 +2,7 @@
 
 for file in .??*
 do
-	[ $file = ".git*" ] && continue
+	[ `echo $file | grep .git` ] && continue
 
 	ln -sf "$HOME/dotfiles/$file" "$HOME/$file"
 	#echo $file
