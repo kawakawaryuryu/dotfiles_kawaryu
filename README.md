@@ -10,6 +10,7 @@
 ## Code
 
 ````
+zsh
 git clone --recursive https://github.com/kawakawaryuryu/dotfiles.git
 cd dotfiles
 ./install.sh
