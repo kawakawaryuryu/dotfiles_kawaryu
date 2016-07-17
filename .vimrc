@@ -101,5 +101,6 @@ set statusline=%F
 set backspace=indent,eol,start
 
 " タブのやインデントの空白数
+set expandtab
 set tabstop=4
 set shiftwidth=4
