@@ -10,9 +10,16 @@
 ## Code
 
 ````
-zsh
-git clone --recursive https://github.com/kawakawaryuryu/dotfiles.git
-cd dotfiles
-./install.sh
-./setting.sh
+# start zsh
+$ zsh
+
+# clone repository
+$ git clone --recursive https://github.com/kawakawaryuryu/dotfiles.git
+
+# change directory 
+$ cd dotfiles
+
+# put dotfiles at home directory
+$ ./install.sh
+
 ````
